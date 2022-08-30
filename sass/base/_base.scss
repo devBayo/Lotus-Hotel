@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: poppins-regular;
+  font-weight: $regular-font-weight;
+  color: $color-grey-dark;
+  line-height: 1.7;
+}
+////////////////////////////////
+/// Test styles remove later
+///
+///
+///
+
+section img {
+  width: 100%;
+}

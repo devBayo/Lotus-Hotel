@@ -1,0 +1,19 @@
+@mixin addAnimation($animation) {
+  animation-name: $animation;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
+
+@mixin headingStyle($fs, $fw) {
+  display: block;
+  font-size: $fs;
+  font-weight: $fw;
+}
+
+@mixin clearFix {
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}

@@ -1,0 +1,44 @@
+.our-services {
+  height: 100%;
+
+  & > .row {
+    height: 40rem;
+  }
+
+  .row {
+    // margin-bottom: $u-margin-bottom-medium;
+    margin-bottom: 3rem;
+  }
+  .services-text {
+    font-size: 1.35rem;
+  }
+
+  .service-showcase-img-box {
+    transform: scale(1.05) translate(5%, 5%);
+    overflow: hidden;
+
+    .service-showcase-img {
+      transition: all 0.3s;
+      &:hover{
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .service-box {
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .service-icon {
+      height: 5rem;
+      width: 5rem;
+
+      & + p {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

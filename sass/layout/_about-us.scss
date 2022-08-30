@@ -1,0 +1,47 @@
+.about-us {
+  .showcase-img-box {
+    overflow: hidden;
+    transform: scaleY(1.15);
+
+    .about-us-showcase-img {
+      padding-right: 1rem;
+      transition: all 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &-sub-heading {
+    font-size: 1.3rem;
+  }
+
+  &-text-box {
+    padding-left: 1rem;
+  }
+
+  &-text {
+    font-size: 1.3rem;
+  }
+
+  .read-more {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $color-grey-dark;
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+      text-transform: uppercase;
+      border: 3px solid #444;
+      transition: all 0.3s;
+    }
+
+    &:hover,
+    &:active {
+      background-color: $color-primary;
+      color: #fff;
+      border-color: $color-primary;
+    }
+  }
+}

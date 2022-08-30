@@ -1,0 +1,47 @@
+.guest {
+  position: relative;
+
+  &-profile {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+
+    &-img {
+      height: 12rem;
+      width: 12rem;
+      border-radius: 50%;
+    }
+
+    &-info {
+      & .guest-name {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+      }
+
+      & .guest-location {
+        font-size: 1.2rem;
+        color: #777;
+      }
+    }
+  }
+
+  &-text-box {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 1.4rem;
+  }
+
+  .display-img-box {
+    width: 100%;
+    overflow: hidden;
+
+    .display-image {
+      width: 100%;
+      transition: all 0.3s;
+
+      &:hover {
+        transform: scale(1.07);
+      }
+    }
+  }
+}

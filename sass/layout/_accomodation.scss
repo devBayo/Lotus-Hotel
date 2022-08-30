@@ -1,0 +1,77 @@
+.accommodations {
+  width: 100%;
+  margin-top: $u-margin-bottom-small;
+
+  &-item {
+    width: 10rem;
+    border: 1px solid #ccc;
+
+    .accommodations-img-box {
+      overflow: hidden;
+
+      .accommodation-img {
+        width: 100%;
+        transition: all 0.3s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    &-text-box {
+      padding: 1.5rem;
+
+      & > p {
+        font-size: 1.3rem;
+      }
+    }
+
+    &-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #ccc;
+      // padding: 0 2rem;
+      padding-left: 2rem;
+
+      .price {
+        font-size: 2.5rem;
+        color: $color-primary;
+      }
+
+      .per-days {
+        margin-left: 0.2rem;
+        font-size: 1.3rem;
+      }
+
+      .accomodation-details {
+        &:link,
+        &:visited {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: $color-grey-dark;
+          font-size: 1.3rem;
+          transition: all 0.3s;
+          padding: 1rem 2rem;
+          border-left: 1px solid #ccc;
+        }
+
+        &:hover,
+        &:active {
+          background-color: $color-primary;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.accommodations-header {
+  position: relative;
+
+  .acc-dots {
+    right: 1rem;
+    bottom: 50%;
+  }
+}

@@ -1,0 +1,53 @@
+/* Custom Fonts */
+@font-face {
+  font-family: poppins-regular;
+  src: url('/font/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: montserrat-regular;
+  src: url('/font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url('/font/Poppins-Bold.ttf');
+}
+
+/* Headings */
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  // line-height: 1.4;
+  font-family: montserrat-regular;
+
+  .heading-primary-main {
+    letter-spacing: 1rem;
+    line-height: 1.4;
+    @include headingStyle(7.5rem, $regular-font-weight);
+    // @include addAnimation(moveInLeft);
+  }
+
+  .heading-primary-alt {
+    @include headingStyle(2.5rem, $regular-font-weight);
+    font-weight: 400;
+    // @include addAnimation(moveInRight);
+  }
+}
+
+.heading-secondary {
+  display: inline-block;
+  font-size: $heading-secondary;
+  text-transform: uppercase;
+  font-weight: $bold-font-weight;
+  color: #444;
+  letter-spacing: 0.2rem;
+}
+
+.heading-tertiary {
+  // font-size: $heading-tertiary;
+  font-size: 2.3rem;
+  font-weight: $regular-font-weight;
+  text-transform: uppercase;
+  // margin-bottom: $u-margin-bottom-small;
+}

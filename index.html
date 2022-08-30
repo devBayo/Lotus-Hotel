@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Lotus Hotel</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Access bar -->
+      <nav class="access-bar">
+        <div class="access-bar-container container">
+          <p class="access-bar-container__text">
+            <span class="temperature">
+              <ion-icon
+                name="cloud-outline"
+                class="access-bar-container__text-icon"
+              ></ion-icon>
+              18 <sup>o</sup>C
+            </span>
+            <span class="location"
+              ><ion-icon
+                name="location-outline"
+                class="access-bar-container__text-icon"
+              ></ion-icon>
+              225 Beach Street, Australian</span
+            >
+            <span class="contact"
+              ><ion-icon
+                name="call-outline"
+                class="access-bar-container__text-icon"
+              ></ion-icon
+              >1-424-782</span
+            >
+          </p>
+
+          <ul class="access-bar-container__list">
+            <li class="access-bar-container__list-item">
+              <a href="#" class="access-bar-link">Login</a>
+            </li>
+            <li class="access-bar-container__list-item">
+              <a href="#" class="access-bar-link">Register</a>
+            </li>
+            <li class="access-bar-container__list-item">
+              <a href="#" class="access-bar-link"
+                >Usd
+                <ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="access-bar-container__list-item">
+              <a href="#" class="access-bar-link"
+                >Eng
+                <ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Access bar -->
+
+      <!--Nav bar  -->
+      <nav class="nav sticky">
+        <div class="container nav-container">
+          <div class="logo-box">
+            <img src="./Images/logo-header.png" alt="Logo" class="logo" />
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link active"
+                >Home<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Room<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Restaurant<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Reservation<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Page<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Gallery<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Blog<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Contact<ion-icon
+                  name="caret-down-sharp"
+                  class="nav-link-icon"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of navbar -->
+
+      <!-- Main content  -->
+      <main class="main-header">
+        <h1 class="heading-primary">
+          <span class="heading-primary-alt"> Each hotel is </span>
+          <span class="heading-primary-main"> Unique 60% </span>
+          <span class="heading-primary-alt">just like you</span>
+        </h1>
+      </main>
+      <!-- End of main content -->
+
+      <div class="bookings">
+        <div class="bookings-container container">
+          <h3 class="bookings-text">
+            <ion-icon name="checkmark-outline" class="check-icon"></ion-icon
+            ><span>ROOMS &<br />RATES</span>
+          </h3>
+
+          <div class="bookings-details-box">
+            <p class="bookings-detail">
+              Arrival Date
+              <ion-icon
+                class="bookings-icon"
+                name="calendar-outline"
+              ></ion-icon>
+            </p>
+            <p class="bookings-detail">
+              Departure Date
+              <ion-icon
+                class="bookings-icon"
+                name="calendar-outline"
+              ></ion-icon>
+            </p>
+            <p class="bookings-detail">
+              Adults
+              <ion-icon
+                class="bookings-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </p>
+            <p class="bookings-detail">
+              Children
+              <ion-icon
+                class="bookings-icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </p>
+            <button class="bookings-btn">Find the best rate</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header -->
+
+    <main class="container">
+      <!-- Accommodation section -->
+      <section class="section-accomoodations">
+        <div class="accommodations-header">
+          <h2 class="heading-secondary">Accomodations</h2>
+          <div class="dots acc-dots">
+            <div class="dot dot-active"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <div class="row accommodations">
+          <div class="col-1-of-3 accommodations-item">
+            <div class="accommodations-img-box">
+              <img src="./Images/room1.jpg" class="accommodation-img" alt="" />
+            </div>
+
+            <div class="accommodations-item-text-box">
+              <h3 class="heading-tertiary">Luxury Room</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus illum exercitationem est beatae! Repellat, cum?
+              </p>
+            </div>
+
+            <footer class="accommodations-item-footer">
+              <p>
+                <span class="price">$320</span
+                ><span class="per-days">/days</span>
+              </p>
+              <a href="#" class="accomodation-details">View detail</a>
+            </footer>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="col-1-of-3 accommodations-item">
+            <div class="accommodations-img-box">
+              <img src="./Images/room2.jpg" class="accommodation-img" alt="" />
+            </div>
+
+            <div class="accommodations-item-text-box">
+              <h3 class="heading-tertiary">Luxury Room</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus illum exercitationem est beatae! Repellat, cum?
+              </p>
+            </div>
+
+            <footer class="accommodations-item-footer">
+              <p>
+                <span class="price">$320</span
+                ><span class="per-days">/days</span>
+              </p>
+              <a href="#" class="accomodation-details">View detail</a>
+            </footer>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="col-1-of-3 accommodations-item">
+            <div class="accommodations-img-box">
+              <img src="./Images/room3.jpg" class="accommodation-img" alt="" />
+            </div>
+
+            <div class="accommodations-item-text-box">
+              <h3 class="heading-tertiary">Luxury Room</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus illum exercitationem est beatae! Repellat, cum?
+              </p>
+            </div>
+
+            <footer class="accommodations-item-footer">
+              <p>
+                <span class="price">$320</span
+                ><span class="per-days">/days</span>
+              </p>
+              <a href="#" class="accomodation-details">View detail</a>
+            </footer>
+          </div>
+        </div>
+      </section>
+      <!-- End od accommodation section  -->
+
+      <!-- Guest section -->
+      <section class="guest-section">
+        <div class="guest grid grid-col-2">
+          <div class="col-1-of-2">
+            <h2 class="heading-secondary s-gutter-vertical">Guest book</h2>
+
+            <div class="guest-profile">
+              <img src="./Images/ben.jpg" alt="" class="guest-profile-img" />
+              <div class="guest-profile-info">
+                <h4 class="guest-name">Seelantag</h4>
+                <p class="guest-location">From Los Angeles,California</p>
+              </div>
+            </div>
+
+            <div class="guest-text-box">
+              <p class="guest-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                doloremque autem dicta. Velit eum aliquid in autem, voluptate
+                ratione dolores molestias ullam suscipit itaque accusantium
+                atque voluptatibus sequi! Modi fuga quasi praesentium.
+              </p>
+            </div>
+            <div class="dots">
+              <div class="dot dot-active"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+
+          <div class="col-1-of-2">
+            <h2 class="heading-secondary s-gutter-vertical">Guest book</h2>
+            <div class="display-img-box">
+              <img class="display-image" src="./Images/img-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Guest section -->
+
+      <section class="about-section">
+        <div class="row about-us">
+          <div class="col-1-of-2">
+            <div class="showcase-img-box">
+              <img
+                src="./Images/img-1 (1).jpg"
+                class="about-us-showcase-img"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-1-of-2 about-us-text-box">
+            <h2 class="heading-secondary clear-lh">About Us</h2>
+            <p class="about-us-sub-heading s-gutter-vertical">
+              Lorem ipsum dolor sit amet ipsum.
+            </p>
+            <p class="about-us-text m-gutter-vertical">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              facere iusto neque quasi voluptate accusamus cupiditate iste ullam
+              doloremque cumque quisquam deleniti asperiores eius, praesentium
+              impedit enim illum, ipsam harum est laudantium voluptates
+              explicabo ut. ipsam harum est
+            </p>
+
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-services container">
+        <div class="row">
+          <div class="col-1-of-2">
+            <h2 class="heading-secondary s-gutter-vertical">Our Best</h2>
+            <p class="services-text s-gutter-vertical">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque,
+              blanditiis voluptatibus delectus esse quia aut aperiam quam sint
+              consectetur consectetur
+            </p>
+
+            <div class="services-container">
+              <div class="row">
+                <div class="col-1-of-2 service-box">
+                  <img src="./Images/icon-3.png" class="service-icon" alt="" />
+                  <p>250 Best Rooms 5 Star</p>
+                </div>
+                <div class="col-1-of-2 service-box">
+                  <img src="./Images/icon-2.png" class="service-icon" alt="" />
+                  <p>Wet Bar With Refrigerator</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-1-of-2 service-box">
+                  <img src="./Images/icon-4.png" class="service-icon" alt="" />
+                  <p>Jacuzzi Pool</p>
+                </div>
+                <div class="col-1-of-2 service-box">
+                  <img src="./Images/icon-5.png" class="service-icon" alt="" />
+                  <p>High Thread Count</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-1-of-2 service-box">
+                  <img src="./Images/icon-1.png" class="service-icon" alt="" />
+                  <p>Breakfast each Morning</p>
+                </div>
+                <div class="col-1-of-2 service-box">
+                  <img src="./Images/icon-6.png" class="service-icon" alt="" />
+                  <p>Ocean view</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-2 service-showcase-img-box">
+            <img
+              src="./Images/img-1 (2).jpg"
+              class="service-showcase-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="news-letter aside">
+      <div class="aside-container container">
+        <div class="aside-title">
+          <ion-icon name="mail-outline" class="mail-icon"></ion-icon>
+          <h2 class="title-text">News & offers</h2>
+        </div>
+        <form action="" class="aside-form">
+          <input type="text" placeholder="Your email address" />
+          <button type="submit">Sign up</button>
+        </form>
+
+        <div class="social-icons">
+          <ion-icon class="social-icon" name="logo-pinterest"></ion-icon>
+          <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+          <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+          <ion-icon class="social-icon" name="logo-google"></ion-icon>
+          <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="footer">
+      <div class="footer-grid container">
+        <div class="logo-col">
+          <img src="./Images/logo-footer.png" class="footer-logo" alt="" />
+        </div>
+
+        <div class="contact-col">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a href="#" class="contact-link">
+                <span class="location"
+                  ><ion-icon
+                    name="location-outline"
+                    class="contact-icon"
+                  ></ion-icon>
+                  225 Beach Street, Australian</span
+                >
+              </a>
+            </li>
+
+            <li class="contact-item">
+              <a href="#" class="contact-link">
+                <span class="contact"
+                  ><ion-icon name="call-outline" class="contact-icon"></ion-icon
+                  >1-424-782</span
+                >
+              </a>
+            </li>
+
+            <li class="contact-item">
+              <a href="#" class="contact-link">
+                <span class="contact"
+                  ><ion-icon name="mail-outline" class="contact-icon"></ion-icon
+                  >hello@thelotushotel.com</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="page-site-col">
+          <h5 class="footer-title">Page Site</h5>
+          <ul>
+            <li><a href="#">Guest Book</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Event</a></li>
+          </ul>
+        </div>
+
+        <div class=about-col">
+        <h5 class="footer-title">About</h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Coming Soon</a></li>
+        </ul>
+        
+      </div>
+      <div class=extra-col">
+          <h5 class="footer-title">Tripadvisor</h5>
+          <p class="extra-text">
+            Now with hotel reviews by
+          </p>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; 2016 Lotus Hotel All rights reserved.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
